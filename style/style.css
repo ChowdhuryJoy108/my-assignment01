@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+/* header nav/hero section styles starts here */
+
+header .navbar-div{
+    max-width: 1140px;
+    height: 100px;
+    margin: 0px auto;
+}
+header .navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px ;
+}
+
+header .navbar-menu h1{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+header .navbar-menu button{
+    padding: 12px 24px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+header .hero-section{
+    max-width: 1440px;
+    height: 550px;
+    left: 0;
+    right: 0;
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 35px;
+    margin-bottom: 74px;
+}
+header .hero-section .hero-content{
+    max-width: 980px;
+    height: 505px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .hero-section .hero-content .hero-content-pic{
+    width: 240px;
+    height: 240px;
+}
+
+header .hero-section .hero-content .hero-content-description h1{
+    color: rgb(13, 19, 33);
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    padding: 20px;
+    line-height: 43px;
+}
+header .hero-section .hero-content .hero-content-description p{
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 50px;
+    opacity: 0.7;
+}
+header .hero-section .hero-content .hero-content-btn{
+    margin-top: 32px;
+}
+header .hero-section .hero-content .hero-content-btn button{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px;
+}
+
+/* header nav/hero section styles ends here */
+
