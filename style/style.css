@@ -12,6 +12,20 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 
+/* shared style inside current target cards */
+
+#learn-more{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+/* shared style inside current target cards */
+
+
 /* header nav/hero section styles starts here */
 
 header .navbar-div{
@@ -106,23 +120,21 @@ header .hero-section .hero-content .hero-content-btn button{
 
 .web-development{
     max-width: 1140px;
-    height: 1220px;
+    height: 1230px;
     margin: 0 auto;
     margin-bottom: 88px;
     border-radius: 16px;
     background-color: rgba(13, 19, 33, 0.02);
-    border: 1px solid red;
 }
 
 .web-development .web-development-content{
     max-width: 946px;
-    height: 1100px;
+    height: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    padding-top: 80px;
     align-items: center;
-    border: 1px solid green;
 }
 
 
@@ -131,13 +143,12 @@ header .hero-section .hero-content .hero-content-btn button{
     font-size: 30px;
     font-weight: 800;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 .web-development .web-development-content .web-development-intro p{
     text-align: center;
     color: rgb(13, 19, 33);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     opacity: 0.7;
 }
@@ -145,7 +156,7 @@ header .hero-section .hero-content .hero-content-btn button{
 .web-development .web-development-content .web-development-gaols{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 32px;
     margin-top: 48px;
 }
 
@@ -183,14 +194,14 @@ header .hero-section .hero-content .hero-content-btn button{
 
 .web-development .web-development-content .web-development-gaols .web-development-gaols-content .web-development-gaols-content-intro h3{
     color: rgba(13, 19, 33, 0.7);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 36px;
     padding: 30px 0 10px 0;
 }
 .web-development .web-development-content .web-development-gaols .web-development-gaols-content .web-development-gaols-content-intro p{
     color: rgb(13, 19, 33);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 26px;
     padding: 10px 0;
@@ -267,12 +278,16 @@ header .hero-section .hero-content .hero-content-btn button{
 }
 
 /* my-inspiration section ends here  */
+
+
+/* my current target section styles starts here */
+
+
 .current-target-container{
     width: 1140px;
     height: 463px;
     margin: 0 auto;
     margin-bottom: 111px;
-    border: 1px solid red;
 }
 .current-target-container .current-target-content{
     width: 100%;
@@ -310,6 +325,7 @@ header .hero-section .hero-content .hero-content-btn button{
 .current-target-container .current-target-content .current-target-descriptions{
     width: 100%;
     height: 300px;
+    margin-top: 48px;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -405,37 +421,104 @@ header .hero-section .hero-content .hero-content-btn button{
     text-align: left;
     margin-bottom: 24px;
 }
-/* shared style inside current target cards */
+/* my current target section styles ends  here */
 
-#learn-more{
+
+
+/* my next target section styles starts here */
+
+
+.next-target-container{
+    width: 1140px;
+    height: 871px;
+    margin: 0 auto;
+    margin-bottom: 41px;
+    display: flex;
+    flex-direction: column;
+}
+
+.next-target-container .next-target-content-intro{
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+}
+.next-target-container .next-target-content-intro h1{
     color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.next-target-container .next-target-content-intro p{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.next-target-container .next-target-content-descriptions{
+    width: 100%;
+    height: 756px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.next-target-container .next-target-content-descriptions .next-target-card{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.next-target-container .next-target-content-descriptions .next-target-card .next-target-card-img{
+    width: 20%;
+}
+
+.next-target-container .next-target-content-descriptions .next-target-card .next-target-card-img img{
+    padding: 40px;
+}
+
+.next-target-container .next-target-content-descriptions .next-target-card .next-target-card-info{
+    width: 80%;
+}
+
+.next-target-container .next-target-content-descriptions .next-target-card .next-target-card-info h4{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
-    text-decoration-line: underline;
+    margin-bottom: 8px;
 }
-/* shared style inside current target cards */
 
-/* my current target section styles starts here */
-
-
-
-
-
-
-
-
-
-
-
+.next-target-container .next-target-content-descriptions .next-target-card .next-target-card-info p{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-right:40px;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
 
 
 
-
-
-
-/* my current target section styles ends  here */
+/* my next target section styles ends here */
 
 
