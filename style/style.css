@@ -74,13 +74,14 @@ header .hero-section{
 }
 header .hero-section .hero-content{
     max-width: 980px;
-    height: 505px;
+    height: 535px;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 44px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 header .hero-section .hero-content .hero-content-pic{
     width: 240px;
@@ -101,6 +102,7 @@ header .hero-section .hero-content .hero-content-description p{
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    line-height: 20px;
     padding: 0 50px;
     opacity: 0.7;
 }
@@ -141,18 +143,23 @@ header .hero-section .hero-content .hero-content-btn button {
     align-items: center;
 }
 
+.web-development .web-development-content .web-development-intro{
+    width: 852px;
+    height: 130px;
+}
 
 .web-development .web-development-content .web-development-intro h1{
     color: rgb(13, 19, 33);
     font-size: 30px;
     font-weight: 800;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .web-development .web-development-content .web-development-intro p{
     text-align: center;
     color: rgb(13, 19, 33);
     font-size: 14px;
+    line-height: 26px;
     font-weight: 400;
     opacity: 0.7;
 }
@@ -161,7 +168,7 @@ header .hero-section .hero-content .hero-content-btn button {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin-top: 48px;
+    margin-top: 40px;
 }
 
 .web-development .web-development-content .web-development-gaols .web-development-gaols-content{
@@ -200,15 +207,15 @@ header .hero-section .hero-content .hero-content-btn button {
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 30px;
     padding: 30px 0 10px 0;
 }
 .web-development .web-development-content .web-development-gaols .web-development-gaols-content .web-development-gaols-content-intro p{
     color: rgb(13, 19, 33);
     font-size: 14px;
     font-weight: 400;
-    line-height: 26px;
-    padding: 10px 0;
+    line-height: 22px;
+    padding: 5px 0;
     opacity: 0.7;
 }
 .web-development .web-development-content .web-development-gaols .web-development-gaols-content .web-development-gaols-content-intro button{
@@ -257,6 +264,7 @@ header .hero-section .hero-content .hero-content-btn button {
     text-align: center;
     color: rgb(13, 19, 33);
     font-size: 14px;
+    line-height: 20px;
     font-weight: 400;
     opacity: 0.7;
 }
@@ -296,7 +304,7 @@ header .hero-section .hero-content .hero-content-btn button {
 
 .current-target-container{
     width: 1140px;
-    height: 463px;
+    height: 500px;
     margin: 0 auto;
     margin-bottom: 111px;
 }
@@ -341,12 +349,11 @@ header .hero-section .hero-content .hero-content-btn button {
     justify-content:space-around;
     align-items: center;
     gap: 20px;
-
 }
 
 .current-target-container .current-target-content .current-target-descriptions .current-target-card {
     width: 350px;
-    height: 280px;
+    height: 300px;
 }
 
 .current-target-container .current-target-content .current-target-descriptions .current-target-card .html-card{
@@ -355,7 +362,6 @@ header .hero-section .hero-content .hero-content-btn button {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     padding: 20px;
-
 }
 
 .current-target-container .current-target-content .current-target-descriptions .current-target-card .html-card h4{
@@ -438,7 +444,6 @@ header .hero-section .hero-content .hero-content-btn button {
 
 /* my next target section styles starts here */
 
-
 .next-target-container{
     width: 1140px;
     height: 871px;
@@ -470,6 +475,7 @@ header .hero-section .hero-content .hero-content-btn button {
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    opacity: 0.7;
 }
 
 .next-target-container .next-target-content-descriptions{
@@ -642,6 +648,15 @@ footer .developer-info h4{
     color: rgb(13, 19, 33);
     font-size: 14px;
     font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+footer .developer-info p,address{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight:normal;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: left;
