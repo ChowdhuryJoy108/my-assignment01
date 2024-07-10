@@ -21,6 +21,7 @@ body{
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+    cursor: pointer;
     text-decoration-line: underline;
 }
 /* shared style inside current target cards */
@@ -106,7 +107,7 @@ header .hero-section .hero-content .hero-content-description p{
 header .hero-section .hero-content .hero-content-btn{
     margin-top: 32px;
 }
-header .hero-section .hero-content .hero-content-btn button{
+header .hero-section .hero-content .hero-content-btn button {
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -114,6 +115,7 @@ header .hero-section .hero-content .hero-content-btn button{
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 21px 24px;
+    cursor: pointer;
 }
 
 /* header nav/hero section styles ends here */
@@ -218,6 +220,7 @@ header .hero-section .hero-content .hero-content-btn button{
     opacity: 0.7;
     padding: 8px 18px;
     margin-top: 20px;
+    cursor: pointer;
 
 }
 
@@ -611,14 +614,46 @@ header .hero-section .hero-content .hero-content-btn button{
     text-align: center;
     border-radius: 8px;
     background: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 /* support section styles ends here */
 
 /* footer section styles starts here  */
 
+footer{
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 0 150px;
+}
+footer .developer-info h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+footer .developer-info h4{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
 
 
-
+footer .developer-social-media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 /* footer section styles ends here  */
 
